@@ -1,0 +1,85 @@
+body {
+  font-family: "Raleway", sans-serif;
+  background: url("https://images.pexels.com/photos/86405/penguin-funny-blue-water-86405.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+
+  h1 {
+    color: rgb(79, 79, 79);
+  }
+}
+
+.card {
+  background: #0000008f;
+  border: 1px solid #000000;
+  padding: 20px;
+  border-radius: 0.5rem;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+
+  h3 {
+    color: #f1f1f1;
+  }
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 14px;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+label {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  cursor: pointer;
+  gap: 0.4rem;
+  padding: 12px 16px;
+  background: rgba(255, 255, 255, 0.859);
+  border: 1px solid white;
+  border-radius: 4px;
+}
+
+label:hover {
+  background: #e0e0e0;
+}
+
+button {
+  background-color: #7a8bcc;
+  padding: 15px 32px;
+  font-size: 22px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  color: white;
+}
+
+button:hover {
+  background-color: #5f6da3;
+}
+
+.resultado {
+  color: white;
+  margin-top: 20px;
+  padding: 22px;
+  background-color: #000000ca;
+  border: 1px solid #000000;
+  border-radius: 0.5rem;
+}
+
+.destaque {
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+.legs-label {
+  display: flex;
+  gap: 12px;
+}
